@@ -96,8 +96,8 @@ const Footer = () => {
                 <li>Protection Testing</li>
                 <li>Cybersecurity Compliance</li>
                 <li>Offensive Security</li>
-                <li>Cybersecurity Connections and Training</li>
-                <li>Indoor/ Response and Digital Features Investigators</li>
+                <li>Cybersecurity Consultation and Training</li>
+                <li>Incident Response and Digital Forensic Investigation</li>
               </ul>
             </div>
 
@@ -105,7 +105,7 @@ const Footer = () => {
               <h3 className="font-bold text-3xl mb-4">About</h3>
               <ul className="space-y-5 text-[16px]">
                 <li>About Hoplon Helms</li>
-                <li>Cleaners</li>
+                <li>Careers</li>
                 <li>Partners</li>
                 <li>Events</li>
                 <li>Our Team</li>
