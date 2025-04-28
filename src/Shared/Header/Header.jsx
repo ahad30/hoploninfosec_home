@@ -12,7 +12,7 @@ const Header = () => {
           </div>
 
           {/* Schedule Consultation Button */}
-          <button className="bg-black text-white px-4  py-1 rounded-full text-[14px] hover:bg-gray-800 ">
+          <button className="bg-black text-white px-4  py-0.5 rounded-full text-[14px] hover:bg-gray-800 ">
             Schedule a Consultation
           </button>
     </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import image from "../../assets/logo.png";
+import { motion } from 'framer-motion';
+
 const Footer = () => {
   return (
     <div>
@@ -59,10 +61,19 @@ const Footer = () => {
                 </li>
                 <li>Protect your Emails with our Email Security.</li>
               </ul>
-              <button className="bg-[#FF0000] hover:bg-blue-700 text-white 
+              <motion.div 
+          className="mt-8"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.6, duration: 0.6 }}
+        >
+            <button className="bg-[#FF0000] hover:bg-blue-700 text-white 
               py-2 px-5 rounded-xl lg:text-xl">
                 Schedule a Consultation
               </button>
+        </motion.div>
+            
             </div>
             <div>
               <h3 className="font-bold text-3xl   mb-4">Products</h3>
@@ -103,7 +114,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col lg:flex-row justify-between items-center">
             <div>
-              <ul className="flex text-[10px] text-[#A020F0] lg:text-base items-center space-x-4">
+              <ul className="flex text-[10px] text-[#A020F0] lg:text-base items-center space-x-5">
                 <li>Contact Us</li>
                 <li>Contact Policy</li>
                 <li>Primary Policy</li>
