@@ -27,7 +27,7 @@ const SliderBanner = () => {
         <SwiperSlide key={banner.id}>
           <section
             className="bg-gray-900 text-white mb-10 bg-no-repeat bg-cover 
-            h-[400px] lg:h-[390px] bg-center cursor-grab mt-[110px]"
+            h-[400px] lg:h-[390px] bg-center cursor-grab lg:mt-[110px]"
             style={{ backgroundImage: `url(${banner.image})` }}
           >
             <div className="py-28">

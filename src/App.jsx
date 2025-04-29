@@ -5,6 +5,8 @@ import { RouterProvider } from "react-router-dom";
 import { routes } from "./Routes/routes";
 import { Toaster } from "react-hot-toast";
 import Loading from "./components/Loading";
+import "primereact/resources/themes/saga-blue/theme.css";
+import "primereact/resources/primereact.min.css";
 
 
 
