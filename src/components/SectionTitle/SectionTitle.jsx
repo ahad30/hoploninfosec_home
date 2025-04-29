@@ -19,7 +19,7 @@ const SectionTitle = ({defaultKey, title, subTitle}) => {
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           <h1 className={`text-2xl text-white bg-[#A020F0] rounded-full px-6 py-2 
-          ${defaultKey === "Partner" ? "bg-[#ED1C24]" : ""} text-center`}>
+          ${defaultKey === "Partner" ? "bg-[#FF0000]" : ""} text-center`}>
             {title}
           </h1>
         </motion.div>
