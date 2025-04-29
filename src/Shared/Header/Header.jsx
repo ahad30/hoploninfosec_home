@@ -112,18 +112,18 @@ const Header = () => {
         className=""
       >
         {/* Fixed Logo at Top */}
-        <div className="sticky top-0 z-10  pb-2 px-4 mb-5 bg-white">
+        <div className=" pb-2 px-4 mb-5 bg-white">
           <img
             src={image}
             alt="Logo"
-            className="w-[70px] h-[70px] mx-auto"
+            className="w-[70px] h-[70px]"
           />
         </div>
         
         {/* Scrollable Content */}
-        <div className="h-full">
+        <div className="">
           {/* Navigation Links */}
-          <nav className="pt-4">
+          <nav className="">
             <ul className="">
               <li>
                 <NavLink 
